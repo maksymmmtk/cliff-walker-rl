@@ -6,12 +6,12 @@ The code was generated using a "Vibe Coding" approach with **Local LLMs (LM Stud
 
 ---
 
-## 🤖 The "Vibe Coding" Workflow
+## The "Vibe Coding" Workflow
 
 This project was built by interacting with a local Large Language Model (`Qwen 2.5 Coder 7B`) via LM Studio.
 
 ### 1. Model Selection
-I used **Qwen 2.5 Coder 7B (Instruct)**, running locally on Linux. This model was chosen for its superior reasoning capabilities in Python and Algorithm generation.
+I used **Qwen 2.5 Coder 7B (Instruct)**, running locally. This model was chosen for its superior reasoning capabilities in Python and Algorithm generation.
 
 ![Model Selection](/docs/screenshots/Screenshot_20260204_225658-2.png)
 
@@ -33,7 +33,7 @@ The model generated the custom Gymnasium environment (`CliffWalker` class) based
 
 ---
 
-## 🧠 Theory: Q-Learning
+## Theory: Q-Learning
 
 The agent learns to navigate the grid by maintaining a **Q-Table** (State-Action values).
 * **State:** The agent's position on the 4x12 grid (0-47).
@@ -48,7 +48,7 @@ $$Q(s,a) \leftarrow Q(s,a) + \alpha [R + \gamma \max Q(s',a') - Q(s,a)]$$
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 * Python 3.10+
@@ -66,7 +66,7 @@ python train.py
 
 ---
 
-## 📊 Results
+## Results
 
 ### Training Process (Visual)
 
@@ -86,7 +86,7 @@ The graph below shows the total reward per episode.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── docs/

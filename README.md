@@ -61,7 +61,7 @@ pip install gymnasium numpy pygame matplotlib
 
 ### 2. Run Training
 ```bash
-pip install gymnasium numpy pygame matplotlib
+python train.py
 ```
 
 ---
